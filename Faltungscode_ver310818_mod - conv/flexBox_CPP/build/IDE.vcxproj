@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6AAE662D-0AA2-3701-8633-A14A6649A24A}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>IDE</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Program Files/MATLAB/2017a/toolbox/flexbox/flexBox_CPP/flexBox_CPP-master/source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Program Files/MATLAB/2017a/toolbox/flexbox/flexBox_CPP/flexBox_CPP-master/source" "-BC:/Program Files/MATLAB/2017a/toolbox/flexbox/flexBox_CPP/build" --check-stamp-file "C:/Program Files/MATLAB/2017a/toolbox/flexbox/flexBox_CPP/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Program Files/MATLAB/2017a/toolbox/flexbox/flexBox_CPP/flexBox_CPP-master/source/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\build\CMakeFiles\3.14.4\CMakeCCompiler.cmake;C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\build\CMakeFiles\3.14.4\CMakeCXXCompiler.cmake;C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\build\CMakeFiles\3.14.4\CMakeRCCompiler.cmake;C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\build\CMakeFiles\3.14.4\CMakeSystem.cmake;C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\build\detect_cuda_compute_capabilities.cpp;C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\CMakeLists.txt;C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\cmake\FlexBoxCudaFlags.cmake;C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\cmake\Modules\FindMatlab.cmake;C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Program Files/MATLAB/2017a/toolbox/flexbox/flexBox_CPP/flexBox_CPP-master/source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Program Files/MATLAB/2017a/toolbox/flexbox/flexBox_CPP/flexBox_CPP-master/source" "-BC:/Program Files/MATLAB/2017a/toolbox/flexbox/flexBox_CPP/build" --check-stamp-file "C:/Program Files/MATLAB/2017a/toolbox/flexbox/flexBox_CPP/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Program Files/MATLAB/2017a/toolbox/flexbox/flexBox_CPP/flexBox_CPP-master/source/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\build\CMakeFiles\3.14.4\CMakeCCompiler.cmake;C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\build\CMakeFiles\3.14.4\CMakeCXXCompiler.cmake;C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\build\CMakeFiles\3.14.4\CMakeRCCompiler.cmake;C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\build\CMakeFiles\3.14.4\CMakeSystem.cmake;C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\build\detect_cuda_compute_capabilities.cpp;C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\CMakeLists.txt;C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\cmake\FlexBoxCudaFlags.cmake;C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\cmake\Modules\FindMatlab.cmake;C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Program Files/MATLAB/2017a/toolbox/flexbox/flexBox_CPP/flexBox_CPP-master/source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Program Files/MATLAB/2017a/toolbox/flexbox/flexBox_CPP/flexBox_CPP-master/source" "-BC:/Program Files/MATLAB/2017a/toolbox/flexbox/flexBox_CPP/build" --check-stamp-file "C:/Program Files/MATLAB/2017a/toolbox/flexbox/flexBox_CPP/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Program Files/MATLAB/2017a/toolbox/flexbox/flexBox_CPP/flexBox_CPP-master/source/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\build\CMakeFiles\3.14.4\CMakeCCompiler.cmake;C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\build\CMakeFiles\3.14.4\CMakeCXXCompiler.cmake;C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\build\CMakeFiles\3.14.4\CMakeRCCompiler.cmake;C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\build\CMakeFiles\3.14.4\CMakeSystem.cmake;C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\build\detect_cuda_compute_capabilities.cpp;C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\CMakeLists.txt;C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\cmake\FlexBoxCudaFlags.cmake;C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\cmake\Modules\FindMatlab.cmake;C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Program Files/MATLAB/2017a/toolbox/flexbox/flexBox_CPP/flexBox_CPP-master/source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Program Files/MATLAB/2017a/toolbox/flexbox/flexBox_CPP/flexBox_CPP-master/source" "-BC:/Program Files/MATLAB/2017a/toolbox/flexbox/flexBox_CPP/build" --check-stamp-file "C:/Program Files/MATLAB/2017a/toolbox/flexbox/flexBox_CPP/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Program Files/MATLAB/2017a/toolbox/flexbox/flexBox_CPP/flexBox_CPP-master/source/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\build\CMakeFiles\3.14.4\CMakeCCompiler.cmake;C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\build\CMakeFiles\3.14.4\CMakeCXXCompiler.cmake;C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\build\CMakeFiles\3.14.4\CMakeRCCompiler.cmake;C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\build\CMakeFiles\3.14.4\CMakeSystem.cmake;C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\build\detect_cuda_compute_capabilities.cpp;C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\CMakeLists.txt;C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\cmake\FlexBoxCudaFlags.cmake;C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\cmake\Modules\FindMatlab.cmake;C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\data\flexBoxData.h" />
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\data\flexBoxDataCPU.h" />
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\data\flexBoxDataGPU.h" />
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\operator\flexDiagonalOperator.h" />
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\operator\flexGradientOperator.h" />
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\operator\flexIdentityOperator.h" />
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\operator\flexLinearOperator.h" />
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\operator\flexMatrix.h" />
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\operator\flexFullMatrix.h" />
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\operator\flexMatrixLogical.h" />
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\operator\flexMatrixGPU.h" />
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\operator\flexSuperpixelOperator.h" />
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\operator\flexZeroOperator.h" />
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\operator\flexConcatOperator.h" />
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\prox\flexProx.h" />
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\prox\flexProxDualBoxConstraint.h" />
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\prox\flexProxDualDataKL.h" />
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\prox\flexProxDualDataL1.h" />
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\prox\flexProxDualDataL2.h" />
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\prox\flexProxDualDataHuber.h" />
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\prox\flexProxDualDataLInf.h" />
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\prox\flexProxDualFrobenius.h" />
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\prox\flexProxDualHuber.h" />
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\prox\flexProxDualL1Aniso.h" />
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\prox\flexProxDualL1Iso.h" />
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\prox\flexProxDualL2.h" />
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\prox\flexProxDualL2Inf.h" />
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\prox\flexProxDualLabeling.h" />
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\prox\flexProxDualLInf.h" />
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\solver\flexSolver.h" />
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\solver\flexSolverPrimalDual.h" />
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\solver\flexSolverPrimalDualCuda.h" />
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\term\flexTerm.h" />
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\wrappers\matlab\functions.cpp" />
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\wrappers\matlab\functions.cu" />
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\flexBox.h" />
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\tools.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\build\ZERO_CHECK.vcxproj">
+      <Project>{F17091B3-B91E-3680-93D2-F68021AAAF38}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

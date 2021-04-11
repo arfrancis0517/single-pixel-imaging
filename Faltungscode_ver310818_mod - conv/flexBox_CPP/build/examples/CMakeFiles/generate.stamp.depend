@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindCUDA/run_nvcc.cmake
+C:/Program Files/MATLAB/2017a/toolbox/flexbox/flexBox_CPP/build/examples/CMakeFiles/exampleROF.dir/exampleROF_generated_exampleROF.cu.obj.cmake.pre-gen
+C:/Program Files/MATLAB/2017a/toolbox/flexbox/flexBox_CPP/build/examples/CMakeFiles/exampleROF.dir/exampleROF_generated_exampleROF.cu.obj.depend
+C:/Program Files/MATLAB/2017a/toolbox/flexbox/flexBox_CPP/build/examples/CMakeFiles/exampleSegmentation.dir/exampleSegmentation_generated_exampleSegmentation.cu.obj.cmake.pre-gen
+C:/Program Files/MATLAB/2017a/toolbox/flexbox/flexBox_CPP/build/examples/CMakeFiles/exampleSegmentation.dir/exampleSegmentation_generated_exampleSegmentation.cu.obj.depend
+C:/Program Files/MATLAB/2017a/toolbox/flexbox/flexBox_CPP/flexBox_CPP-master/source/examples/CMakeLists.txt
+C:/Program Files/MATLAB/2017a/toolbox/flexbox/flexBox_CPP/flexBox_CPP-master/source/examples/sampleFiles.h.in

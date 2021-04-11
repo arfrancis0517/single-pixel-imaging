@@ -1,0 +1,26 @@
+Changelog
+
+
+
+
+
+
+simulate
+
+
+05.03.2019			loading of mask for reconstruction implemented
+
+					Random noise replaced by poisson and gaussian noise depending on signal level
+					different noise types added by as quadratic value
+
+					
+12.03.2019			Resolution Target Image changed
+					created testloop and image saving
+					
+14.03.2019			normalization to max count number
+					quantization
+					
+					
+xquant
+
+14.03.2019			new file - new function, quantization of measured value depending on bit parameter

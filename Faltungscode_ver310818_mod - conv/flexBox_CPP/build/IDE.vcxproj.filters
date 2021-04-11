@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\data\flexBoxData.h">
+      <Filter>data</Filter>
+    </None>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\data\flexBoxDataCPU.h">
+      <Filter>data</Filter>
+    </None>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\data\flexBoxDataGPU.h">
+      <Filter>data</Filter>
+    </None>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\operator\flexDiagonalOperator.h">
+      <Filter>operator</Filter>
+    </None>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\operator\flexGradientOperator.h">
+      <Filter>operator</Filter>
+    </None>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\operator\flexIdentityOperator.h">
+      <Filter>operator</Filter>
+    </None>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\operator\flexLinearOperator.h">
+      <Filter>operator</Filter>
+    </None>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\operator\flexMatrix.h">
+      <Filter>operator</Filter>
+    </None>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\operator\flexFullMatrix.h">
+      <Filter>operator</Filter>
+    </None>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\operator\flexMatrixLogical.h">
+      <Filter>operator</Filter>
+    </None>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\operator\flexMatrixGPU.h">
+      <Filter>operator</Filter>
+    </None>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\operator\flexSuperpixelOperator.h">
+      <Filter>operator</Filter>
+    </None>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\operator\flexZeroOperator.h">
+      <Filter>operator</Filter>
+    </None>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\operator\flexConcatOperator.h">
+      <Filter>operator</Filter>
+    </None>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\prox\flexProx.h">
+      <Filter>prox</Filter>
+    </None>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\prox\flexProxDualBoxConstraint.h">
+      <Filter>prox</Filter>
+    </None>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\prox\flexProxDualDataKL.h">
+      <Filter>prox</Filter>
+    </None>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\prox\flexProxDualDataL1.h">
+      <Filter>prox</Filter>
+    </None>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\prox\flexProxDualDataL2.h">
+      <Filter>prox</Filter>
+    </None>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\prox\flexProxDualDataHuber.h">
+      <Filter>prox</Filter>
+    </None>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\prox\flexProxDualDataLInf.h">
+      <Filter>prox</Filter>
+    </None>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\prox\flexProxDualFrobenius.h">
+      <Filter>prox</Filter>
+    </None>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\prox\flexProxDualHuber.h">
+      <Filter>prox</Filter>
+    </None>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\prox\flexProxDualL1Aniso.h">
+      <Filter>prox</Filter>
+    </None>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\prox\flexProxDualL1Iso.h">
+      <Filter>prox</Filter>
+    </None>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\prox\flexProxDualL2.h">
+      <Filter>prox</Filter>
+    </None>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\prox\flexProxDualL2Inf.h">
+      <Filter>prox</Filter>
+    </None>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\prox\flexProxDualLabeling.h">
+      <Filter>prox</Filter>
+    </None>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\prox\flexProxDualLInf.h">
+      <Filter>prox</Filter>
+    </None>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\solver\flexSolver.h">
+      <Filter>solver</Filter>
+    </None>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\solver\flexSolverPrimalDual.h">
+      <Filter>solver</Filter>
+    </None>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\solver\flexSolverPrimalDualCuda.h">
+      <Filter>solver</Filter>
+    </None>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\term\flexTerm.h">
+      <Filter>term</Filter>
+    </None>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\wrappers\matlab\functions.cpp">
+      <Filter>matlab</Filter>
+    </None>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\wrappers\matlab\functions.cu">
+      <Filter>matlab</Filter>
+    </None>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\flexBox.h">
+      <Filter>misc</Filter>
+    </None>
+    <None Include="C:\Program Files\MATLAB\2017a\toolbox\flexbox\flexBox_CPP\flexBox_CPP-master\source\tools.h">
+      <Filter>misc</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="data">
+      <UniqueIdentifier>{6678FE6D-AA9F-3827-825F-6CD323B769F9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="matlab">
+      <UniqueIdentifier>{5528DA2D-7FE6-331B-8377-6C37567E695A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="misc">
+      <UniqueIdentifier>{52D7A227-03FF-3194-86C6-984E2FA3517A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="operator">
+      <UniqueIdentifier>{94B308F6-BE9B-304B-B18F-8BADFCF4CC14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="prox">
+      <UniqueIdentifier>{A6C7632D-C698-3E58-AF69-F3C2B84F3FED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="solver">
+      <UniqueIdentifier>{0B982ACB-FC7D-3F79-8555-1051BAAFB1FA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="term">
+      <UniqueIdentifier>{8816718E-0904-3498-AC4C-04C22ECC69CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindCUDA/run_nvcc.cmake
+C:/Program Files/MATLAB/2017a/toolbox/flexbox/flexBox_CPP/build/tests/CMakeFiles/testOperators.dir/testOperators_generated_testMain.cu.obj.cmake.pre-gen
+C:/Program Files/MATLAB/2017a/toolbox/flexbox/flexBox_CPP/build/tests/CMakeFiles/testOperators.dir/testOperators_generated_testMain.cu.obj.depend
+C:/Program Files/MATLAB/2017a/toolbox/flexbox/flexBox_CPP/build/tests/CMakeFiles/testOperators.dir/testOperators_generated_testOperators.cu.obj.cmake.pre-gen
+C:/Program Files/MATLAB/2017a/toolbox/flexbox/flexBox_CPP/build/tests/CMakeFiles/testOperators.dir/testOperators_generated_testOperators.cu.obj.depend
+C:/Program Files/MATLAB/2017a/toolbox/flexbox/flexBox_CPP/build/tests/CMakeFiles/testProx.dir/testProx_generated_testMain.cu.obj.cmake.pre-gen
+C:/Program Files/MATLAB/2017a/toolbox/flexbox/flexBox_CPP/build/tests/CMakeFiles/testProx.dir/testProx_generated_testMain.cu.obj.depend
+C:/Program Files/MATLAB/2017a/toolbox/flexbox/flexBox_CPP/build/tests/CMakeFiles/testProx.dir/testProx_generated_testProx.cu.obj.cmake.pre-gen
+C:/Program Files/MATLAB/2017a/toolbox/flexbox/flexBox_CPP/build/tests/CMakeFiles/testProx.dir/testProx_generated_testProx.cu.obj.depend
+C:/Program Files/MATLAB/2017a/toolbox/flexbox/flexBox_CPP/flexBox_CPP-master/source/tests/CMakeLists.txt
